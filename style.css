@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.new-event-form {
+  margin-bottom: 20px;
+}
+
+.new-event-form input[type="text"],
+.new-event-form input[type="date"],
+.new-event-form button {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: block;
+  width: calc(100% - 22px);
+}
+
+.new-event-form button {
+  background-color: #008cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+.event {
+  background: #e6e2d3;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.event__name {
+  font-size: 20px;
+}
+
+.event__dates {
+  font-size: 16px;
+  color: #666;
+}
+
+.event__actions {
+  margin-top: 10px;
+}
+
+.event__del-btn, .event__edit-btn {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.event__del-btn {
+  background-color: #d9534f;
+  color: white;
+}
+
+.event__edit-btn {
+  background-color: #008cba;
+  color: white;
+}
+
